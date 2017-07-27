@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  name: String = 'Qoo1233';
+
+
   constructor() { }
 
   ngOnInit() {

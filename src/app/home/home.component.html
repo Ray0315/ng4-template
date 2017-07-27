@@ -9,9 +9,9 @@
           <a href="javascript:void(0)">部落格</a>
         </li>
       </ul>
-      <div class="Header-acount"><a href="/signin">登入</a>
-        <!-- react-text: 944 -->/
-        <!-- /react-text --><a href="/signup">註冊</a>
+      <div class="Header-acount">
+        <a href="/signin">登入</a>
+        <a href="/signup">註冊</a>
       </div>
       <ul class="Header-global-links">
         <li><a href="http://line.naver.jp/ti/p/~@osd4146g" target="_blank"><span>找店長</span></a></li>
@@ -26,8 +26,44 @@
       </ul>
     </div>
   </div>
-  <div class="Header-contain">
-    test123
-  </div>
+  <div class="Header-inner">
+    <h1 class="Header-logo">
+      <a href="/"><img src="https://petpetgo.com/public/images/logo.svg" alt="毛孩市集"></a>
+    </h1>
 
+    <div class="Header-bd">
+      <div class="Header-actions">
+        <div class="Header-search">
+          <div class="Searchbar">
+            <div class="InputGroup">
+              <div class="InputIcon InputIcon--left">
+                <div class="Textfield"><input type="text" value="">
+                  <p class="Textfield-error"></p>
+                </div>
+                <span class="Icon" data-icon="search">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                  </svg>
+                  </span>
+              </div>
+              <button class="Button">
+                <span>搜尋</span>
+                <div class="Spinner">
+                  <div style="background-color: rgb(255, 255, 255);"></div>
+                   <div style="background-color: rgb(255, 255, 255);"></div>
+                   <div style="background-color: rgb(255, 255, 255);"></div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<input [(ngModel)]="name">
+    <p>Hello {{name}}!</p>-->
+
+
+
+  </div>
 </div>
